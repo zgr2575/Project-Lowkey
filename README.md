@@ -2,13 +2,13 @@
 Trace DDOS attacks back to the attacker. 
 
 
-Welcome to Project Lowkey.
+# Welcome to Project Lowkey.
 
 We are a group dedicated to stopping DDOS attacks. 
 
 While it is illegal to perform counter attacks we can offer:
 
-Exploit protection. 
+# Exploit protection. # 
 
 Theoretically we save your entire website(not data) on a cahsing server. 
 Every milisecond we check for server changes or changes in a local copy. 
@@ -35,7 +35,7 @@ On our servers we start an investigation based off the logs sent to our main ser
 
 We then trace the IP back to the VPN or proxie server then forward information to police for further investigation. 
 
-Q & A 
+# Q & A 
 What happens if our server goes offline? 
 
 Though we have multiple servers. If all fails we would use cloud services such as AWS until we get our servers up.
