@@ -1,48 +1,14 @@
 # Project-Lowkey
-Trace DDOS attacks back to the attacker. 
-
-
-# Welcome to Project Lowkey.
-
-We are a group dedicated to stopping DDOS attacks. 
-
-While it is illegal to perform counter attacks we can offer:
-
-# Exploit protection. # 
-
-Theoretically we save your entire website(not data) on a cahsing server. 
-Every milisecond we check for server changes or changes in a local copy. 
-
-Using packages like express may not work at this time.
-
-When a change is made to cliental or serversideal we shut down all processes. 
-Then show all users a under attack screen. 
-
-We will then trace the connection, if they are using a VPN we could contact police.
-Or
-If it is a legitiment IP putting them on a global ban list for all ZADMIN services along with all Lowkey users.
-
-This is acheiveable through a server only online during download and upload from authorised users. 
-
-# DDOS Protection #
-We know servers going offline is annoying.
-
-Before the attack. If we notice a random spike in user count, we send out a message saying, "Under attack. We are routing all this trafic back to the original sender"
-It will proceed to then shut off all servers and block all connections to the website. 
-
-Using proxies in this situation can be hard to crack if not impossible. 
-On our servers we start an investigation based off the logs sent to our main server. Using fast text processing we find all the botnets and put them on the global ban list for visiting any website. 
-
-We then trace the IP back to the VPN or proxie server then forward information to police for further investigation. 
-
-# Q & A 
-What happens if our server goes offline? 
-
-Though we have multiple servers. If all fails we would use cloud services such as AWS until we get our servers up.
-
-What if our servers get DDOSED? 
-
-They won't. Our server changes IP adresses and domains every second. 
-Meaning we would theoretically never get attacked.
-
-If someone was able to stop this we have the backup servers plus our features.
+Welcome to Project Lowkey, a repo designed to prevent DDOS attacks and trace them back to the attacker. 
+## How Would We Trace These Attacks?
+Well in a DDOS attack it can be 2 ways, the attacker is using proxies, or a botnet. 
+## Whats a botnet?
+A botnet is a chain of computers who all have ran a malicious file which adds them to a group of hundreds to thousands of computers in which the attacker can use to effictivaly overload just about any server. 
+## Whats a proxy?
+A proxy is an ip address someone can connect to, and hide their real IP to prevent IP blockage in a DDOS attack. 
+## Well, how can you prevent these?
+Lowkey will track your server traffic, if there is a sudden increase on outgoing connections by up to 50% we will protect the server, and these new IPs wont be served a page.
+## How do we trace these?
+Well, after the attack ends, those IPs are going to be added to a database where all sites who use Lowkey have built in, when an IP in this database loads a Lowkey webpage, the IP will get redirected to a page prompting that they were used in a DDOS attack and your urged to call a number where we can help the user find whatever software is runninng to keep them in this botnet, after we find it the executable is then debuged in a controlled enviorment so that we can obtain the IP of the server managing this botnet. This is when we hand this investigation to the police.
+## When will this project luanch?
+No clue, its going to take a while. 
